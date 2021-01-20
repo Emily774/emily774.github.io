@@ -28,6 +28,13 @@ a {
 	height: 85%;
 }
 
+#submit {
+	color: white;
+ font-weight: bold;
+ background-color: purple;
+}
+
+
 button {
 	 color:	rgb(128,0,128);
 	 background-color: rgb(255,0,0);
@@ -45,31 +52,31 @@ button {
 .text-box-1 {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 10px 20px 10px 20px;
 }
 
 h2 {
-	margin: 10px;
+	margin: 5px;
 }
 h3 {
-	margin: 10px;
+	margin: 5px;
 }
 h4 {
-	margin: 10px;
+	margin: 5px;
 }
 
 
 .main-body{
 	display: flex;
-	
 }
+
 .main-text {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
-	margin: 2em;
-
-	
+	margin: 10px 20px 10px 20px;
 }
+
 .images {
 	display: flex;
 	flex-direction: column;
