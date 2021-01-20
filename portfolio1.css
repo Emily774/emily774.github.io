@@ -11,6 +11,12 @@ a {
 	display: flex;
 	justify-content: space-between;
 }
+
+.logo-link {
+	width:15%;
+	height: 85%;
+}
+
 .accessibility-link {
 	background-color: rgb(75,0,130);
 	height: 15%;
@@ -19,28 +25,6 @@ a {
 	display: flex;
 	flex-direction: column;
 }
-.main-image{
-	position: relative;
-}
-.primary-heading {
-	position: absolute;
-	top: 65%;
-}
-.chess {
-	width: 100%;
-}
-
-.pharoh {
-	width:15%;
-	height: 85%;
-}
-
-#submit {
-	color: white;
- font-weight: bold;
- background-color: purple;
-}
-
 
 button {
 	 color:	rgb(128,0,128);
@@ -55,6 +39,24 @@ button {
 	 justify-content: space-between;
 }
 
+#submit {
+	color: white;
+ font-weight: bold;
+ background-color: purple;
+}
+
+.main-image-div{
+	position: relative;
+}
+
+.main-image {
+	width: 100%;
+}
+
+.main-image-heading {
+	position: absolute;
+	top: 65%;
+}
 
 .text-box-1 {
 	margin: 10px 20px 10px 20px;
@@ -69,7 +71,6 @@ h3 {
 h4 {
 	margin: 5px;
 }
-
 
 .main-body{
 	display: flex;
@@ -92,27 +93,30 @@ h4 {
 	width: 100%;
 }
 
-.sub-image-title-formating1 {
+.sub-image-title-formatting1 {
 	position: relative;
 }
 
-.sub-image-title-formating2 {
-	position: relative;
-}
-
-.sub-image-title-formating3 {
-	position: relative;
-}
 .sub-image-title1 {
 	position: absolute;
 	color: black;
 	background-color: white;
 }
+	
+.sub-image-formatting2{
+	position: relative;
+}
+
 .sub-image-title2 {
 	position: absolute;
 	color: black;
 	background-color: white;
 }
+
+.sub-image-title-formatting3 {
+	position: relative;
+}
+
 .sub-image-title3 {
 	position: absolute;
 	color: black;
@@ -125,11 +129,12 @@ h4 {
 			flex-direction: column;
 	
 		}
-		button {
+	button {
 			font-size: x-small;
 		}
 	}
-	@media screen and (max-width: 540px) {
+
+@media screen and (max-width: 540px) {
 		button {
 			font-size: xx-small;
 		}
