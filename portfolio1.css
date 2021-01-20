@@ -32,20 +32,29 @@ button {
 	 color:	rgb(128,0,128);
 	 background-color: rgb(255,0,0);
 	 width: 12%;
+	 font-family: Helvetica, Arial, Times;
+	 font-weight: bold;
 }
 .buttons1 {
-     color: #4CAF50;
-	 background-color: #4CAF50;
      padding: 1%;
      display: flex;
 	 justify-content: space-between;
-     font-size: large;
 }
 
 
 .text-box-1 {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+h2 {
+	margin: 10px;
+}
+h3 {
+	margin: 10px;
+}
+h4 {
+	margin: 10px;
 }
 
 
@@ -67,16 +76,26 @@ button {
 	width: 40%;
 }
 
-.three {
+.sub-images  {
 	width: 100%;
 }
 
-}
+
 
 
 @media screen and (max-width: 700px) {
 	.main-body {
-
+			display: flex;
+			flex-direction: column;
+	
+		}
+		button {
+			font-size: x-small;
+		}
 	}
-}
+	@media screen and (max-width: 540px) {
+		button {
+			font-size: xx-small;
+		}
+	}
 
