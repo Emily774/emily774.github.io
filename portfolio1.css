@@ -36,12 +36,10 @@ button {
 .buttons1 {
      color: #4CAF50;
 	 background-color: #4CAF50;
-     padding: 15px 32px;
-     text-align: center;
-     text-decoration: none;
+     padding: 1%;
      display: flex;
 	 justify-content: space-between;
-     font-size: 16px;
+     font-size: large;
 }
 
 
@@ -58,14 +56,15 @@ button {
 .main-text {
 	display: flex;
 	flex-direction: column;
-	width: 70%;
+	width: 60%;
+	margin: 2em;
 
 	
 }
 .images {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 40%;
 }
 
 .three {
@@ -74,18 +73,10 @@ button {
 
 }
 
-.buttons2 {
-    color: #4CAF50;
- 	background-color: #4CAF50;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
- 	justify-content: space-between;
-    font-size: 16px;
-}
 
 @media screen and (max-width: 700px) {
-	
+	.main-body {
+
+	}
 }
 
