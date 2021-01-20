@@ -1,10 +1,10 @@
 body {
-	background-color: rgb(165,42,42);
+	background-color: #761E1E;
 	color: white;
 }
 
 a {
-	color: red;
+	color: #08ff31;
 }
 
 .top-bar {
@@ -13,8 +13,7 @@ a {
 }
 
 .logo-link {
-	width:15%;
-	height: 85%;
+	width: 100px;
 }
 
 .accessibility-link {
@@ -27,8 +26,8 @@ a {
 }
 
 button {
-	 color:	rgb(128,0,128);
-	 background-color: rgb(255,0,0);
+	 color:	#FFFFFF;
+	 background-color: #ae17ff;
 	 width: 12%;
 	 font-family: Helvetica, Arial, Times;
 	 font-weight: bold;
@@ -41,8 +40,8 @@ button {
 
 #submit {
 	color: white;
- font-weight: bold;
- background-color: purple;
+	font-weight: bold;
+	background-color: purple;
 }
 
 .main-image-div{
@@ -135,7 +134,7 @@ h4 {
 	}
 
 @media screen and (max-width: 540px) {
-		button {
+	button {
 			font-size: xx-small;
 		}
 	}
