@@ -19,6 +19,13 @@ a {
 	display: flex;
 	flex-direction: column;
 }
+.main-image{
+	position: relative;
+}
+.primary-heading {
+	position: absolute;
+	top: 65%;
+}
 .chess {
 	width: 100%;
 }
@@ -50,8 +57,6 @@ button {
 
 
 .text-box-1 {
-	display: flex;
-	flex-wrap: wrap;
 	margin: 10px 20px 10px 20px;
 }
 
