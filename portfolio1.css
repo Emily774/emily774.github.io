@@ -1,6 +1,6 @@
 body {
 	background-color: #761E1E;
-	color: white;
+	color: #FFFFFF;
 }
 
 a {
@@ -17,9 +17,10 @@ a {
 }
 
 .accessibility-link {
-	background-color: rgb(75,0,130);
+	background-color: #4b0082;
 	height: 15%;
 }
+
 .form {
 	display: flex;
 	flex-direction: column;
@@ -27,11 +28,12 @@ a {
 
 button {
 	 color:	#FFFFFF;
-	 background-color: #ae17ff;
+	 background-color: #7f1d86;
 	 width: 12%;
 	 font-family: Helvetica, Arial, Times;
 	 font-weight: bold;
 }
+
 .buttons1 {
      padding: 1%;
      display: flex;
@@ -39,9 +41,9 @@ button {
 }
 
 #submit {
-	color: white;
+	color: #FFFFFF;
 	font-weight: bold;
-	background-color: purple;
+	background-color: #7f1d86;
 }
 
 .main-image-div{
@@ -54,7 +56,7 @@ button {
 
 .main-image-heading {
 	position: absolute;
-	top: 65%;
+	top: 65%; 
 }
 
 .text-box-1 {
@@ -98,8 +100,8 @@ h4 {
 
 .sub-image-title1 {
 	position: absolute;
-	color: black;
-	background-color: white;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 	
 .sub-image-formatting2{
@@ -108,8 +110,8 @@ h4 {
 
 .sub-image-title2 {
 	position: absolute;
-	color: black;
-	background-color: white;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 
 .sub-image-title-formatting3 {
@@ -118,16 +120,16 @@ h4 {
 
 .sub-image-title3 {
 	position: absolute;
-	color: black;
-	background-color: white;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 
 @media screen and (max-width: 700px) {
 	.main-body {
 			display: flex;
 			flex-direction: column;
-	
 		}
+		
 	button {
 			font-size: x-small;
 		}
