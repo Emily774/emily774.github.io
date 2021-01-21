@@ -34,7 +34,7 @@ button {
 	 font-weight: bold;
 }
 
-.buttons1 {
+.navButtons {
      padding: 1%;
      display: flex;
 	 justify-content: space-between;
@@ -66,9 +66,11 @@ button {
 h2 {
 	margin: 5px;
 }
+
 h3 {
 	margin: 5px;
 }
+
 h4 {
 	margin: 5px;
 }
@@ -126,18 +128,18 @@ h4 {
 
 @media screen and (max-width: 700px) {
 	.main-body {
-			display: flex;
-			flex-direction: column;
+		display: flex;
+		flex-direction: column;
 		}
 		
 	button {
-			font-size: x-small;
+		font-size: x-small;
 		}
 	}
 
 @media screen and (max-width: 540px) {
 	button {
-			font-size: xx-small;
+		font-size: xx-small;
 		}
 	}
 
