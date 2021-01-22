@@ -1,0 +1,145 @@
+body {
+	background-color: #761E1E;
+	color: #FFFFFF;
+}
+
+a {
+	color: #08ff31;
+}
+
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-link {
+	width: 100px;
+}
+
+.accessibility-link {
+	background-color: #4b0082;
+	height: 15%;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	 color:	#FFFFFF;
+	 background-color: #7f1d86;
+	 width: 12%;
+	 font-family: Helvetica, Arial, Times;
+	 font-weight: bold;
+}
+
+.navButtons {
+     padding: 1%;
+     display: flex;
+	 justify-content: space-between;
+}
+
+#submit {
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #7f1d86;
+}
+
+.main-image-div{
+	position: relative;
+}
+
+.main-image {
+	width: 100%;
+}
+
+.main-image-heading {
+	position: absolute;
+	top: 65%; 
+}
+
+.text-box-1 {
+	margin: 10px 20px 10px 20px;
+}
+
+h2 {
+	margin: 5px;
+}
+
+h3 {
+	margin: 5px;
+}
+
+h4 {
+	margin: 5px;
+}
+
+.main-body{
+	display: flex;
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 10px 20px 10px 20px;
+}
+
+.images {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.sub-images  {
+	width: 100%;
+}
+
+.sub-image-title-formatting1 {
+	position: relative;
+}
+
+.sub-image-title1 {
+	position: absolute;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+	
+.sub-image-formatting2{
+	position: relative;
+}
+
+.sub-image-title2 {
+	position: absolute;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.sub-image-title-formatting3 {
+	position: relative;
+}
+
+.sub-image-title3 {
+	position: absolute;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 700px) {
+	.main-body {
+		display: flex;
+		flex-direction: column;
+		}
+		
+	button {
+		font-size: x-small;
+		}
+	}
+
+@media screen and (max-width: 540px) {
+	button {
+		font-size: xx-small;
+		}
+	}
+
