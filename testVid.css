@@ -99,9 +99,9 @@ input, label{
 	z-index:-1;
 	top: 70px;
 	width: 100%;
-	margin: 0px;
+	margin: 0;
 	/*height: 500px;*/
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .main-image-heading {
@@ -151,9 +151,6 @@ input, label{
 .sub-image-title-formatting1 {
 	position: relative;
 }
-.sub-image-title-formatting1:hover {
-	background-color: blue;
-}
 
 .sub-image-title1 {
 	position: absolute;
@@ -161,6 +158,10 @@ input, label{
 	background-color: #FFFFFF;
 	padding: 5px;
 }
+
+/*.sub-image-title1:hover {*/
+/*	background-color: blue;*/
+/*}*/
 	
 .sub-image-formatting2{
 	position: relative;
