@@ -159,9 +159,9 @@ input, label{
 	padding: 5px;
 }
 
-/*.sub-image-title1:hover {*/
-/*	background-color: blue;*/
-/*}*/
+.sub-image-title1:hover {
+	background-color: blue;
+}
 	
 .sub-image-formatting2{
 	position: relative;
