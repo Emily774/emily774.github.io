@@ -68,11 +68,6 @@ h2, h3, h4 {
 	z-index: 3;
 }
 
-/*.accessibility-link {*/
-/*	background-color: #4b0082;*/
-/*	height: 15%;*/
-/*	z-index: 4;*/
-/*}*/
 
 form {
 	display: flex;
@@ -119,10 +114,15 @@ input, label{
 	top: 100px;
 }
 
+.dates {
+
+}
 
 .scrumBadge{
 	width: 100px;
-	display: inline-block;
+	display: block;
+	position: relative;
+	left: 200px;
 }
 
 .main-body{
@@ -141,48 +141,26 @@ input, label{
 
 .images {
 	width: 40%;
-	margin: 15px; 
 }
 
 .sub-images  {
 	width: 100%;
+	margin-left: 1px;
 }
 
-.sub-image-title-formatting1 {
+.sub-image-formatting {
 	position: relative;
-}
-
-.sub-image-title1 {
-	position: absolute;
-	color: #000000;
 	background-color: #FFFFFF;
 	padding: 5px;
 }
 
-.sub-image-title1:hover {
+.sub-image-title {
+	position: absolute;
+	color: #000000;
+}
+
+.sub-image-formatting:hover {
 	background-color: blue;
-}
-	
-.sub-image-formatting2{
-	position: relative;
-}
-
-.sub-image-title2 {
-	position: absolute;
-	color: #000000;
-	background-color: #FFFFFF;
-	padding: 5px;
-}
-
-.sub-image-title-formatting3 {
-	position: relative;
-}
-
-.sub-image-title3 {
-	position: absolute;
-	color: #000000;
-	background-color: #FFFFFF;
-	padding: 5px;
 }
 
 #submit {
