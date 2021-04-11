@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /*.rels {*/
 /*!*	position: absolute;*!*/
@@ -5,13 +6,13 @@
 /*	!*display: block;*!*/
 /*}*/
 
-.video {
-	width: 100%;
-	height: 280px;
-	position: absolute;
-	object-fit: cover;
-	z-index: 0;
-}
+/*.video {*/
+/*	width: 100%;*/
+/*	height: 280px;*/
+/*	position: absolute;*/
+/*	object-fit: cover;*/
+/*	z-index: 0;*/
+/*}*/
 /*.vid-heading {*/
 /*	position: absolute;*/
 /*	left: 250px;*/
@@ -19,13 +20,14 @@
 /*}*/
 
 body {
-	background-color: #000000;
+	background-color: #7E7E7E;
 	color: #FFFFFF;
 	margin: 5px;
 }
 
 a {
 	color: #08ff31;
+	text-decoration: none;
 }
 
 img {
@@ -37,12 +39,13 @@ img {
 
 button {
 	position: absolute;
-	left: 45%;
+	left: 25px;
 	 color:	#FFFFFF;
-	 background-color: #7f1d86;
+	 background-color: #76BA1B;
 	 width: 12%;
-	 font-family: Helvetica, Arial, Times;
+	 font-family: 'Open Sans Condensed', sans-serif;
 	 font-weight: bold;
+	 font-size: large;
 }
 
 button:hover{
@@ -51,6 +54,22 @@ button:hover{
 }
 
 h2, h3, h4 {
+	margin: 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: x-large;
+}
+
+footer{
+	height: 100px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	z-index: 5;
+}
+
+input, label{
 	margin: 5px;
 }
 
@@ -64,19 +83,9 @@ h2, h3, h4 {
 }
 
 .logo-link {
+	position: relative;
+	top: 25px;
 	width: 100px;
-	z-index: 3;
-}
-
-
-form {
-	display: flex;
-	flex-direction: column;
-	z-index: 5;
-}
-
-input, label{
-	margin: 5px;
 }
 
 /*.navButtons {*/
@@ -92,51 +101,51 @@ input, label{
 .main-image {
 	position: relative;
 	z-index:-1;
-	top: 70px;
+	bottom: 175px;
 	width: 100%;
 	margin: 0;
-	/*height: 500px;*/
 	border-radius: 0;
 }
 
 .main-image-heading {
-	position: absolute;
-	z-index:1;
-	top: 65%;
-	margin: 10px;
-}
-
-.textBox1 {
-	margin: 10px 20px 10px 20px;
-	padding: 10px 20px 10px 20px;
 	position: relative;
 	z-index:1;
-	top: 100px;
+	bottom: 250px;
+	margin: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.textBox {
+	margin: 10px 20px 10px 20px;
+	position: relative;
+	bottom: 170px;
 }
 
 .dates {
-
+	text-align: right;
 }
 
 .scrumBadge{
 	width: 100px;
-	display: block;
+	display: inline-block;
 	position: relative;
-	left: 200px;
+	left: 300px;
+	bottom: 70px;
 }
 
 .main-body{
 	display: flex;
-	font-family: sans-serif, Arial, comic;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: large;
+	position: relative;
+	bottom: 130px;
 }
 
 .main-text {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
-	margin: 10px 20px 10px 20px;
-	position: relative;
-	top: 100px;
+	margin: 10px 40px 10px 20px;
 }
 
 .images {
@@ -154,19 +163,31 @@ input, label{
 	padding: 5px;
 }
 
-.sub-image-title {
-	position: absolute;
-	color: #000000;
+.sub-image-formatting:hover {
+	background-color: #76BA1B;
 }
 
-.sub-image-formatting:hover {
-	background-color: blue;
+.sub-image-title {
+	position: relative;
+	color: #000000;
+	top: 0;
 }
 
 #submit {
 	color: #FFFFFF;
 	font-weight: bold;
-	background-color: #7f1d86;
+	background-color: #76BA1B;
+}
+#submit:hover{
+	color:	#FFFFFF;
+	background-color: #0f5132;
+}
+
+#bookend{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	bottom: 0;
 }
 
 
