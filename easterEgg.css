@@ -2,8 +2,8 @@ body{
     background-image: url("sagrada.jpeg");
     background-color: whitesmoke;
     background-size: cover;
-    font-family: 'Dancing Script', cursive;
-    color: greenyellow;
+    font-family: 'Dancing Script';
+    color: black;
     font-weight: bold;
 }
 h1{
